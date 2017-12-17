@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+}
+img {
+	width: 200px;
+	height: 250px;
+}
+p {
+	padding: 10px 0;
+	font-size: 18px;
+}
+h2 {
+	background: #36c;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+.foto {
+	padding: 30px 10px 0 15px;
+	text-align: center;
+}
+.main-info {
+	padding-top: 30px;
+}
