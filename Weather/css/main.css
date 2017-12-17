@@ -30,6 +30,9 @@ body {
 	color: #fff;
 	font-size: 0;
 }
+.main-border {
+	border: 3px solid #fff;
+}
 h1 {
 	font-size: 26px;
 }
