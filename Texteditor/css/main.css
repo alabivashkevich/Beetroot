@@ -47,9 +47,6 @@ body {
 	font-size: 45px;
 	text-transform: capitalize;
 }
-hr {
-	color: black;
-}
 .content {
 	width: 1060px;
 	height: 675px;
