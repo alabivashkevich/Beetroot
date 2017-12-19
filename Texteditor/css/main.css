@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900');
+@font-face {
+	font-family: 'Conv_Proxima Nova Regular';
+	src: url('./../fonts/Proxima Nova Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FuturaPTHeavy';
+	src: url('./../fonts/FuturaPTHeavy.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	background-color: #464f54;
+	position: relative;
+}
+.main-content {
+	/*position: relative;*/
+}
+.first-article {
+	background-color: #000;
+	color:#fff;
+	width: 885px;
+	padding: 30px 0 30px 45px;
+	margin-top: 30px;
+	position: absolute;
+	right: 0;
+}
+.title, .roy {
+	font-family: 'Conv_Proxima Nova Regular';
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 3px;
+	color: grey;
+}
+.subtitle {
+	margin-bottom: 15px;
+	font-size: 45px;
+	text-transform: capitalize;
+}
+hr {
+	color: black;
+}
+.content {
+	width: 1060px;
+	height: 675px;
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	box-shadow: 0 0 45px #302f2f;
+	z-index: -1000;
+}
+ul {
+	position: absolute;
+	background-color: #f7bd2c;
+	width: 840px;
+	top: 182px;
+	right: 0;
+}
+ul>li {
+	display: inline-block;
+	padding: 10px;
+	opacity: .5;
+	cursor: pointer;
+}
+ul li:nth-of-type(1) {
+	margin-left: 20px;
+}
+ul li img {
+	width: 35px;
+}
+ul>li:hover {
+	opacity: 1;
+}
+.second-article {
+	width: 860px;
+	margin: 0 auto;
+	padding: 145px 70px 0 70px;
+	border-left: 2px solid #ddd;
+}
+.roy	{
+	font-size: 20px;
+	color: #ccc;
+	margin-top: 30px;
+}
+.heading {
+	font-size: 78px;
+	font-family: 'Conv_FuturaPTHeavy';
+	text-transform: uppercase;
+	color: #2a2a2a;
+	display: inline-block;
+	margin-top: 35px;
+}
+.i {
+	font-family: Georgia, sans-serif;
+	color: grey;
+	padding-bottom: 35px;
+	font-size: 28px;
+}
+.main-p {
+	font-family: Georgia, sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+}
