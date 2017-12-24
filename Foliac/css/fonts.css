@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@font-face {
+    font-family: 'Conv_Slim Joe';
+    src: local('☺'), url('./../fonts/Slim Joe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Slim Joe';
+    src: local('☺'), url('./../fonts/Slim Joe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

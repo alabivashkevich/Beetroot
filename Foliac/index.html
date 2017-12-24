@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Описание сайта">
+    <meta name="keywords" content="Ключевые слова">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="">
+    <title>Foliac</title>
+</head>
+
+<body>
+    <!--Main-Screen-->
+    <div class="main-screen">
+        <header class="header wrapper">
+            <!--Header-->
+            <div class="header__logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <nav class="header__nav nav">
+                <a class="nav__link nav__link--active" href="#">Accueil</a>
+                <a class="nav__link" href="#">Portfolio</a>
+                <a class="nav__link" href="#">About</a>
+                <a class="nav__link" href="#">Contact</a>
+            </nav>
+        </header>
+        <section class="main-section wrapper">
+            <h1 class="main-section__title">voici votre prochain portfolio</h1>
+            <p class="main-section__text">un template psd simple et gratui</p>
+            <button class="btn btn--green">mes travaux</button>
+        </section>
+    </div>
+    <!--End Main-screen-->
+
+    <!--Section-Gallery-->
+    <section id="gallery" class="section-gallery wrapper">
+        <div class="gallery__btn-controls">
+            <button class="btn--controls__btn btn--controls__btn--active">Tous les projets</button>
+            <button class="btn--controls__btn">Webdesign</button>
+            <button class="btn--controls__btn">UI/UX design</button>
+            <button class="btn--controls__btn">Illustration</button>
+            <button class="btn--controls__btn">Motion design</button>
+        </div>
+        <div class="gallery__list ">
+            <div class="gallery__column">
+                <div class="gallery__item gallery__item--size-1">
+                    <img src="./img/item-1.png" alt="">
+                    <div class="gallery__item-overlay overlay">
+                        <div class="animate-text">
+                            <p class="overlay__title">Forest app</p>
+                            <p class="overlay__subtitle">application mobile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item gallery__item--size-2">
+                    <img src="./img/item-4.png" alt="">
+                    <div class="gallery__item-overlay overlay">
+                        <div class="animate-text">
+                            <p class="overlay__title">Forest app</p>
+                            <p class="overlay__subtitle">application mobile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__column gallery__column--large">
+                <div class="gallery__item gallery__item--size-3">
+                    <img src="./img/item-3.png" alt="">
+                    <div class="gallery__item-overlay overlay">
+                        <div class="animate-text">
+                            <p class="overlay__title">Forest app</p>
+                            <p class="overlay__subtitle">application mobile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item gallery__item--size-4">
+                    <img src="./img/item-2.jpg" alt="">
+                    <div class="gallery__item-overlay overlay">
+                        <div class="animate-text">
+                            <p class="overlay__title">Forest app</p>
+                            <p class="overlay__subtitle">application mobile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Section Galery-->
+
+    <!--Section About-->
+    <section class="section__about">
+        <div class="wrapper">
+            <div class="section__about-text">
+                <p class="about__text-name">
+                    Michel Dupont
+                </p>
+                <p class="about__text-profit">
+                    Webdesigner, illustrateur, auteur
+                </p>
+                <p class="about__text-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <button class="about__about-btn">me contacter</button>
+            </div>
+        </div>
+    </section>
+    <!--End Section About-->
+
+    <!--Section Form-->
+    <section class="section-form">
+        <div class="section-form__wrapper">
+            <p class="section-form__title">
+                Me contacter
+            </p>
+            <form action="" class="section-form__form form">
+                <div class="form__field form__field--input">
+                    <span class="form__icon-field ">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                    <input type="text" placeholder="Vorte nom">
+                </div>
+                <div class="form__field form__field--input">
+                    <span class="form__icon-field ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <input type="email" placeholder="Vorte email">
+                </div>
+                <div class="form__field form__field--textarea">
+                    <span class="form__icon-field">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </span>
+                    <textarea placeholder="Vorte massege"></textarea>
+                </div>
+                <button class="form__btn">Envoer</button>
+            </form>
+        </div>
+    </section>
+    <!--EndSection Form-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="wrapper">
+            <span class="footer__copyrite">
+                Copyright © 2015 by beneggen - <a class="footer__link" href="#">www.beneggen.fr</a>
+            </span>
+            <ul class="footer__social">
+                <a href="#">
+                    <li class="footer__social--link twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="footer__social--link linkedin">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="footer__social--link dribbble">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="footer__social--link behance">
+                        <i class="fa fa-behance" aria-hidden="true"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+</body>
+
+</html>
