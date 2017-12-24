@@ -62,7 +62,7 @@ ul {
 	position: absolute;
 	background-color: #f7bd2c;
 	width: 840px;
-	top: 182px;
+	top: 176px;
 	right: 0;
 }
 ul>li {
@@ -70,6 +70,7 @@ ul>li {
 	padding: 10px;
 	opacity: .5;
 	cursor: pointer;
+	transition: .3s ease;
 }
 ul li:nth-of-type(1) {
 	margin-left: 20px;
