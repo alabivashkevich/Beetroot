@@ -418,38 +418,52 @@ button {
 .footer__social {
     float: right;
     font-size: 0;
-    z-index: 2000;
 }
 
-.twitter {
+.footer__social--link {
+    display: inline-block;
+    margin: 75px 0 0 40px;
+}
+
+.footer__social--link:hover {
+    color: #3c4955;
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+}
+
+.twitter,
+.linkedin,
+.dribbble,
+.behance {
     position: relative;
     width: 48px;
     height: 28px;
     font-size: 20px;
     border-radius: 5px;
-    display: inline-block;
-    margin: 75px 0 0 40px;
     line-height: 27px;
     text-align: center;
-    background: #55acee;
     z-index: 5;
     transition: all .3s ease-in;
     color: #fff;
 }
 
-.twitter:before {
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 46px;
-    top: 0px;
-    left: 0px;
+.twitter {
     background: #55acee;
-    border-radius: 5px;
-    transform: translate(9px, -9px) rotate(31deg);
-    z-index: -1;
 }
 
+.linkedin {
+    background: #0976b4;
+}
+
+.dribbble {
+    background: #ea4c89;
+}
+
+.behance {
+    background: #1769ff;
+}
+
+.twitter:before,
 .twitter:after {
     position: absolute;
     content: "";
@@ -459,39 +473,18 @@ button {
     left: 0px;
     background: #55acee;
     border-radius: 5px;
-    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
 }
 
-.linkedin {
-    position: relative;
-    width: 48px;
-    height: 28px;
-    font-size: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 75px 0 0 40px;
-    line-height: 28px;
-    background: #0976b4;
-    text-align: center;
-    z-index: 5;
-    transition: all .3s ease-in;
-    color: #fff;
-}
-
-.linkedin:before {
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 46px;
-    top: 0px;
-    left: 0px;
-    background: #0976b4;
-    border-radius: 5px;
+.twitter:before {
     transform: translate(9px, -9px) rotate(31deg);
-    z-index: -1;
 }
 
+.twitter:after {
+    transform: translate(9px, -9px) rotate(-31deg);
+}
+
+.linkedin:before,
 .linkedin:after {
     position: absolute;
     content: "";
@@ -501,40 +494,18 @@ button {
     left: 0px;
     background: #0976b4;
     border-radius: 5px;
-    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
-    ;
 }
 
-.dribbble {
-    position: relative;
-    width: 48px;
-    height: 28px;
-    font-size: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 75px 0 0 40px;
-    line-height: 28px;
-    text-align: center;
-    background: #ea4c89;
-    z-index: 5;
-    transition: all .3s ease-in;
-    color: #fff;
-}
-
-.dribbble:before {
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 46px;
-    top: 0px;
-    left: 0px;
-    background: #ea4c89;
-    border-radius: 5px;
+.linkedin:before {
     transform: translate(9px, -9px) rotate(31deg);
-    z-index: -1;
 }
 
+.linkedin:after {
+    transform: translate(9px, -9px) rotate(-31deg);
+}
+
+.dribbble:before,
 .dribbble:after {
     position: absolute;
     content: "";
@@ -544,40 +515,18 @@ button {
     left: 0px;
     background: #ea4c89;
     border-radius: 5px;
-    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
-    ;
 }
 
-.behance {
-    position: relative;
-    width: 48px;
-    height: 28px;
-    font-size: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 75px 0 0 40px;
-    line-height: 28px;
-    text-align: center;
-    z-index: 5;
-    background: #1769ff;
-    color: #fff;
-    transition: all .3s ease-in;
-}
-
-.behance:before {
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 46px;
-    top: 0px;
-    left: 0px;
-    background: #1769ff;
-    border-radius: 5px;
+.dribbble:before {
     transform: translate(9px, -9px) rotate(31deg);
-    z-index: -1;
 }
 
+.dribbble:after {
+    transform: translate(9px, -9px) rotate(-31deg);
+}
+
+.behance:before,
 .behance:after {
     position: absolute;
     content: "";
@@ -587,12 +536,13 @@ button {
     left: 0px;
     background: #1769ff;
     border-radius: 5px;
-    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
 }
 
-.footer__social--link:hover {
-    color: #3c4955;
-    transform: scale(1.1);
-    transition: all .3s ease-in;
+.behance:before {
+    transform: translate(9px, -9px) rotate(31deg);
+}
+
+.behance:after {
+    transform: translate(9px, -9px) rotate(-31deg);
 }
