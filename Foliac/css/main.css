@@ -423,13 +423,13 @@ button {
 
 .twitter {
     position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
+    width: 48px;
+    height: 28px;
+    font-size: 20px;
+    border-radius: 5px;
     display: inline-block;
     margin: 75px 0 0 40px;
-    line-height: 50px;
+    line-height: 27px;
     text-align: center;
     background: #55acee;
     z-index: 5;
@@ -440,39 +440,38 @@ button {
 .twitter:before {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #55acee;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(31deg);
     z-index: -1;
 }
 
 .twitter:after {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #55acee;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
-    ;
 }
 
 .linkedin {
     position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
+    width: 48px;
+    height: 28px;
+    font-size: 20px;
+    border-radius: 5px;
     display: inline-block;
     margin: 75px 0 0 40px;
-    line-height: 50px;
+    line-height: 28px;
     background: #0976b4;
     text-align: center;
     z-index: 5;
@@ -483,39 +482,39 @@ button {
 .linkedin:before {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #0976b4;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(31deg);
     z-index: -1;
 }
 
 .linkedin:after {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #0976b4;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
     ;
 }
 
 .dribbble {
     position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
+    width: 48px;
+    height: 28px;
+    font-size: 20px;
+    border-radius: 5px;
     display: inline-block;
     margin: 75px 0 0 40px;
-    line-height: 50px;
+    line-height: 28px;
     text-align: center;
     background: #ea4c89;
     z-index: 5;
@@ -526,39 +525,39 @@ button {
 .dribbble:before {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #ea4c89;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(31deg);
     z-index: -1;
 }
 
 .dribbble:after {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #ea4c89;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
     ;
 }
 
 .behance {
     position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
+    width: 48px;
+    height: 28px;
+    font-size: 20px;
+    border-radius: 5px;
     display: inline-block;
     margin: 75px 0 0 40px;
-    line-height: 50px;
+    line-height: 28px;
     text-align: center;
     z-index: 5;
     background: #1769ff;
@@ -569,26 +568,26 @@ button {
 .behance:before {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #1769ff;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(31deg);
     z-index: -1;
 }
 
 .behance:after {
     position: absolute;
     content: "";
-    width: 40px;
-    height: 75px;
+    width: 30px;
+    height: 46px;
     top: 0px;
     left: 0px;
     background: #1769ff;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
+    border-radius: 5px;
+    transform: translate(9px, -9px) rotate(-31deg);
     z-index: -1;
 }
 
