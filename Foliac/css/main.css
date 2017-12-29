@@ -418,182 +418,131 @@ button {
 .footer__social {
     float: right;
     font-size: 0;
-    z-index: 2000;
 }
 
-.twitter {
-    position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
+.footer__social--link {
     display: inline-block;
     margin: 75px 0 0 40px;
-    line-height: 50px;
-    text-align: center;
-    background: #55acee;
-    z-index: 5;
-    transition: all .3s ease-in;
-    color: #fff;
-}
-
-.twitter:before {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #55acee;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
-    z-index: -1;
-}
-
-.twitter:after {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #55acee;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
-    z-index: -1;
-    ;
-}
-
-.linkedin {
-    position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
-    display: inline-block;
-    margin: 75px 0 0 40px;
-    line-height: 50px;
-    background: #0976b4;
-    text-align: center;
-    z-index: 5;
-    transition: all .3s ease-in;
-    color: #fff;
-}
-
-.linkedin:before {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #0976b4;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
-    z-index: -1;
-}
-
-.linkedin:after {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #0976b4;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
-    z-index: -1;
-    ;
-}
-
-.dribbble {
-    position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
-    display: inline-block;
-    margin: 75px 0 0 40px;
-    line-height: 50px;
-    text-align: center;
-    background: #ea4c89;
-    z-index: 5;
-    transition: all .3s ease-in;
-    color: #fff;
-}
-
-.dribbble:before {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #ea4c89;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
-    z-index: -1;
-}
-
-.dribbble:after {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #ea4c89;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
-    z-index: -1;
-    ;
-}
-
-.behance {
-    position: relative;
-    width: 70px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 4px;
-    display: inline-block;
-    margin: 75px 0 0 40px;
-    line-height: 50px;
-    text-align: center;
-    z-index: 5;
-    background: #1769ff;
-    color: #fff;
-    transition: all .3s ease-in;
-}
-
-.behance:before {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #1769ff;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(28deg);
-    z-index: -1;
-}
-
-.behance:after {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 75px;
-    top: 0px;
-    left: 0px;
-    background: #1769ff;
-    border-radius: 3px;
-    transform: translate(15px, -13px) rotate(-28deg);
-    z-index: -1;
 }
 
 .footer__social--link:hover {
     color: #3c4955;
     transform: scale(1.1);
     transition: all .3s ease-in;
+}
+
+.twitter,
+.linkedin,
+.dribbble,
+.behance {
+    position: relative;
+    width: 48px;
+    height: 28px;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 27px;
+    text-align: center;
+    z-index: 5;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.linkedin {
+    background: #0976b4;
+}
+
+.dribbble {
+    background: #ea4c89;
+}
+
+.behance {
+    background: #1769ff;
+}
+
+.twitter:before,
+.twitter:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 46px;
+    top: 0px;
+    left: 0px;
+    background: #55acee;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.twitter:before {
+    transform: translate(9px, -9px) rotate(31deg);
+}
+
+.twitter:after {
+    transform: translate(9px, -9px) rotate(-31deg);
+}
+
+.linkedin:before,
+.linkedin:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 46px;
+    top: 0px;
+    left: 0px;
+    background: #0976b4;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.linkedin:before {
+    transform: translate(9px, -9px) rotate(31deg);
+}
+
+.linkedin:after {
+    transform: translate(9px, -9px) rotate(-31deg);
+}
+
+.dribbble:before,
+.dribbble:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 46px;
+    top: 0px;
+    left: 0px;
+    background: #ea4c89;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.dribbble:before {
+    transform: translate(9px, -9px) rotate(31deg);
+}
+
+.dribbble:after {
+    transform: translate(9px, -9px) rotate(-31deg);
+}
+
+.behance:before,
+.behance:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 46px;
+    top: 0px;
+    left: 0px;
+    background: #1769ff;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.behance:before {
+    transform: translate(9px, -9px) rotate(31deg);
+}
+
+.behance:after {
+    transform: translate(9px, -9px) rotate(-31deg);
 }
