@@ -240,11 +240,11 @@ button {
     background-size: cover;
     overflow: hidden;
     margin-bottom: 50px;
-    height: 500px;
+    min-height: 500px;
 }
 
 .section__about-text {
-    width: 500px;
+    max-width: 500px;
     float: right;
     padding: 80px 15px 0 15px;
     color: #fff;
@@ -287,7 +287,7 @@ button {
 /*Section Form*/
 
 .section-form__wrapper {
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -423,18 +423,6 @@ button {
 .footer__social--link {
     display: inline-block;
     margin: 75px 0 0 40px;
-}
-
-.footer__social--link:hover {
-    color: #3c4955;
-    transform: scale(1.1);
-    transition: all .3s ease-in;
-}
-
-.twitter,
-.linkedin,
-.dribbble,
-.behance {
     position: relative;
     width: 48px;
     height: 28px;
@@ -445,6 +433,12 @@ button {
     z-index: 5;
     transition: all .3s ease-in;
     color: #fff;
+}
+
+.footer__social--link:hover {
+    color: #3c4955;
+    transform: scale(1.1);
+    transition: all .3s ease-in;
 }
 
 .twitter {

@@ -1,85 +1,147 @@
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	transition: all .3s ease-in-out;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: all .3s ease-in-out;
 }
+
+
 /*Colors*/
-.blue {background-color: #3399cc;}
-.aqua {background-color: #33cccc;}
-.violet {background-color: #996699;}
-.red {background-color: #c24747;}
-.orange {background-color: #e2674a;}
-.yellow {background-color: #ffcc66;}
-.light-green {background-color: #99cc99;}
-.pink {background-color: #cc6699;}
-.green {background-color: #339966;}
-.dark-violet {background-color: #666699;}
+
+.blue {
+    background-color: #3399cc;
+}
+
+.aqua {
+    background-color: #33cccc;
+}
+
+.violet {
+    background-color: #996699;
+}
+
+.red {
+    background-color: #c24747;
+}
+
+.orange {
+    background-color: #e2674a;
+}
+
+.yellow {
+    background-color: #ffcc66;
+}
+
+.light-green {
+    background-color: #99cc99;
+}
+
+.pink {
+    background-color: #cc6699;
+}
+
+.gray {
+    background-color: #333333;
+}
+
+.green {
+    background-color: #339966;
+}
+
+.dark-violet {
+    background-color: #666699;
+}
+
 
 /*Box Sising*/
-.small {width: 25%;}
-.medium {width: 50%;}
-.big {width: 100%;}
+
+.small {
+    width: 25%;
+}
+
+.medium {
+    width: 50%;
+}
+
+.big {
+    width: 100%;
+}
+
 
 /*User Style*/
+
 body {
-	background-color: #3399cc;
-	border: 20px solid #2b81ac;
-	color: #fff;
-	font-size: 0;
+    background-color: #3399cc;
+    border: 20px solid #2b81ac;
+    color: #fff;
 }
+
 .main-border {
-	border: 3px solid #fff;
+    border: 3px solid #fff;
+    font-size: 0;
+    background: #fff;
 }
+
 h1 {
-	font-size: 26px;
+    font-size: 26px;
 }
+
 p {
-	font-size: 18px;
+    font-size: 18px;
 }
+
 .big-later {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
+
 .main-content {
-	max-width: 900px;
-	margin: 25px auto;
+    max-width: 900px;
+    margin: 25px auto;
 }
+
 .container {
-	text-transform: capitalize;
+    text-transform: capitalize;
 }
+
 .title {
-	padding-bottom: 25px;
+    padding-bottom: 25px;
 }
+
 .item {
-	border: 3px solid #fff;
-	display: inline-block;
-	text-align: center;
-	position: relative;
-	height: 111px;
+    border: 3px solid #fff;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 111px;
 }
+
 .item:hover {
-	opacity: .7;
+    opacity: .7;
 }
+
 .city {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	padding: 10px
-	width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px width: 100%;
 }
+
 .city-name {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
+
 .temperature {
-	opacity: .6
+    opacity: .6
 }
+
 .wi {
-	margin-left: 10px;
-	font-size: 28px;
+    margin-left: 10px;
+    font-size: 28px;
 }
+
 .subtitle {
-	padding-top: 25px;
+    padding-top: 25px;
 }
