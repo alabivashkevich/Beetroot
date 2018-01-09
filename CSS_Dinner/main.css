@@ -1,100 +1,121 @@
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	transition: all .3s ease-in-out;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // @TODO:  транзише только к определенным тегам не ко всем
+  transition: all .3s ease-in-out;
 }
+
 body {
-	background-color: #3b3f45;
+  background-color: #3b3f45;
 }
+
 header {
-	background-color: #4a4f56;
-	text-align: center;
-	padding: 15px;
-	font-size: 18px;
-	color: #e97f81;
+  background-color: #4a4f56;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  color: #e97f81;
 }
+
 .title {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
+
 .main-content {
-	width: 800px;
-	margin: 30px auto;
-	color: #f9f9f9;
+  width: 800px;
+  margin: 30px auto;
+  color: #f9f9f9;
 }
+
 .small {
-	font-size: 14px;
-	color: #cdc2c1;
-	opacity: .
+  font-size: 14px;
+  color: #cdc2c1;
+  // @TODO: ????
+  opacity: .
 }
+
 .container {
-	background-color: #88849d;
-	padding: 20px;
-	font-size: 20px;
-	border: 2px solid transparent;
+  background-color: #88849d;
+  // @TODO: тебе этот паддинг надо было дать label чтобы он полностью был кликабельный, а так у тебя только надпись кликабельная, а должен быть кликабельный вся область
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid transparent;
 }
+
 .container:nth-of-type(2n) {
-	background-color: #7a7692;
+  background-color: #7a7692;
 }
+
 .container:hover {
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
-	background-color: #625e76;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background-color: #625e76;
 }
+
 span {
-	vertical-align: middle;
+  vertical-align: middle;
 }
+
 label {
-	cursor: pointer;
-	position: relative;
-	width: 100%;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
 }
+
 input {
-	display: none;
+  display: none;
 }
+
 .box {
-	display: inline-block;
-	height: 20px;
-	width: 20px;
-	border: 1px solid #cbc9c9;
-	background-color: #d7d4d4;
-	box-shadow: inset 0 0 8px #fff;
-	vertical-align: middle;
-	margin-right: 10px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #cbc9c9;
+  background-color: #d7d4d4;
+  box-shadow: inset 0 0 8px #fff;
+  vertical-align: middle;
+  margin-right: 10px;
 }
+
 input:checked + .box:after {
-	position: absolute;
-	content: "";
-	background: url(cheked.png) no-repeat;
-	-webkit-background-size: 100%;
-	background-size: 100%;
-	height: 20px;
-	width: 20px;
-	top: 3px;
-	left: 1px;
-	transition: background .3s ease-in-out;
+  position: absolute;
+  content: "";
+  background: url(cheked.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  height: 20px;
+  width: 20px;
+  // @TODO: не занимайся математикой, испоьзуй для выравнивания transform: translate(-50%, -50%);
+  top: 3px;
+  left: 1px;
+  transition: background .3s ease-in-out;
 }
+
 input:checked ~ span {
-	color: #a39daa;
-	text-decoration: line-through;
+  color: #a39daa;
+  text-decoration: line-through;
 }
+
 .button {
-	cursor: pointer;
-	border:none;
-	margin-top: 30px;
-	background-color: #4a4f56;
-	width: 100%;
-	padding: 15px;
-	font-size: 24px;
-	color: #e97f81;
-	outline: none;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+  background-color: #4a4f56;
+  width: 100%;
+  padding: 15px;
+  font-size: 24px;
+  color: #e97f81;
+  outline: none;
 }
-.button:active, .button:visited {
-	border: none;
-	background-color: #514e53;
-	color: #ddd;
+
+.button:active,
+.button:visited {
+  border: none;
+  background-color: #514e53;
+  color: #ddd;
 }

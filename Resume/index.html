@@ -1,87 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Описание сайта">
-	<meta name="keywords" content="Ключевые слова">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Описание сайта">
+  <meta name="keywords" content="Ключевые слова">
 
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="shortcut icon" href="">
-	<title>Resume</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="">
+  <title>Resume</title>
 </head>
-<body>
-	<div class="container">
-		<header> <!--Header-->
-			<h1>Матвейкин Иван Михайлович</h1>
-			<div class="foto">
-				<img src="img/IMG_20170523_130701.jpg" alt="Foto">
-			</div>
-			<div class="main-info">
-				<div class="date">
-					<h2>Дата рождения</h2>
-						<p>15.12.1986г. (30 полных лет)</p>
-				</div>
-				<div class="phone">
-					<h2>Контактный телефон</h2>
-						<p>+38 (066) 94 59 018</p>
-				</div>
-				<div class="nation">
-					<h2>Гражданство и место проживания</h2>
-					<p>Украинец</p>
-						<p>г. Запорожье, ул. Запорожского Козачества 19</p>
-				</div>
-				<div class="motive">
-					<h2>Цель</h2>
-						<p>Получение должности IT разработчика (Front-End-Developer)</p>
-				</div>
-			</div>
-		</header><!--End Header-->
-		<div class="main-content">
-			<div class="education">
-				<h2>Образование</h2>
-					<h3>Начало обучения</h3>
-						<p>2004</p>
-					<h3>Окончание обучения</h3>
-						<p>2009</p>
-					<h3>Факультет</h3>
-						<p>Компьютерные технологии</p>
-					<h3>Специальность</h3>
-						<p>Системы управления и автоматика</p>
-			</div>
-			<div class="profile">
-				<h2>Опыт работы</h2>
-				<div class="job">
-					<h3>Период работы 2007 – 2011гг</h3>
-						<p>Оператор по разливу бытовой  химии</p>
-				</div>
-				<div class="job">
-					<h3>Период работы 20011 – 2015гг</h3>
-						<p>Инженер по ремонту и организации эксплуатации оборудования</p>
-				</div>
-				<div class="job">
-					<h3>Период работы 20015 – 2017гг</h3>
-						<p>Инженер электронщик</p>
-				</div>
-			</div>
-			<div class="options">
-				<h2>Дополнительные сведения</h2>
-					<p>Семейное положение: Женат</p>
-					<p>Наличие детей: 1 ребёнок (дочь 6 лет)</p>
-					<p>Уровень владения ПК: уверенный пользователь</p>
-					<p>Дополнительное образование: занимаюсь самообразованием, изучаю HTML5,  CSS3,  JS,  JQuery. Опыт работы c AdobeMuse, Word Press.</p>
-					<p>Мои работы: www.visawe.ru (разработка макета и верстка),www.cofe-man.com (сайт под ключ), http://faska.pro (вносил изменение в верстке), www.cascade.su (наполнение контентом).
-					Знание иностранных языков и степень владения: Английский средний</p>
-					<p>Наличие водительских прав: категория В, С стаж 11лет</p>
-					<p>Личностные качества: большое желание учится и  развиваться, пунктуальный, ответственный.</p>
-			</div>
-		</div>
-	</div>
-	<footer> <!--Footer-->
-		
-	</footer><!--End Footer-->
 
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<body>
+  <div class="container">
+    <header>
+      <!--Header-->
+      <!-- @TODO если SEO не требует использует h1, h2, h3 - используй тег p + class - все равно тебе его надо будет стилить
+      Используй унивесальные классы для задания общих стилей для заголовков, текста и тд -->
+      <h1>Матвейкин Иван Михайлович</h1>
+      <div class="foto">
+        <img src="img/IMG_20170523_130701.jpg" alt="Foto">
+      </div>
+      <div class="main-info">
+        <div class="date">
+          <h2>Дата рождения</h2>
+          <p>15.12.1986г. (30 полных лет)</p>
+        </div>
+        <div class="phone">
+          <h2>Контактный телефон</h2>
+          <p>+38 (066) 94 59 018</p>
+        </div>
+        <div class="nation">
+          <h2>Гражданство и место проживания</h2>
+          <p>Украинец</p>
+          <p>г. Запорожье, ул. Запорожского Козачества 19</p>
+        </div>
+        <div class="motive">
+          <h2>Цель</h2>
+          <p>Получение должности IT разработчика (Front-End-Developer)</p>
+        </div>
+      </div>
+    </header>
+    <!--End Header-->
+    <div class="main-content">
+      <div class="education">
+        <h2>Образование</h2>
+        <h3>Начало обучения</h3>
+        <p>2004</p>
+        <h3>Окончание обучения</h3>
+        <p>2009</p>
+        <h3>Факультет</h3>
+        <p>Компьютерные технологии</p>
+        <h3>Специальность</h3>
+        <p>Системы управления и автоматика</p>
+      </div>
+      <div class="profile">
+        <h2>Опыт работы</h2>
+        <div class="job">
+          <h3>Период работы 2007 – 2011гг</h3>
+          <p>Оператор по разливу бытовой химии</p>
+        </div>
+        <div class="job">
+          <h3>Период работы 20011 – 2015гг</h3>
+          <p>Инженер по ремонту и организации эксплуатации оборудования</p>
+        </div>
+        <div class="job">
+          <h3>Период работы 20015 – 2017гг</h3>
+          <p>Инженер электронщик</p>
+        </div>
+      </div>
+      <div class="options">
+        <h2>Дополнительные сведения</h2>
+        <p>Семейное положение: Женат</p>
+        <p>Наличие детей: 1 ребёнок (дочь 6 лет)</p>
+        <p>Уровень владения ПК: уверенный пользователь</p>
+        <p>Дополнительное образование: занимаюсь самообразованием, изучаю HTML5, CSS3, JS, JQuery. Опыт работы c AdobeMuse,
+          Word Press.</p>
+        <p>Мои работы: www.visawe.ru (разработка макета и верстка),www.cofe-man.com (сайт под ключ), http://faska.pro (вносил
+          изменение в верстке), www.cascade.su (наполнение контентом). Знание иностранных языков и степень владения: Английский
+          средний
+        </p>
+        <p>Наличие водительских прав: категория В, С стаж 11лет</p>
+        <p>Личностные качества: большое желание учится и развиваться, пунктуальный, ответственный.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <!--Footer-->
+
+  </footer>
+  <!--End Footer-->
+
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+      ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
 
 </body>
+
 </html>
