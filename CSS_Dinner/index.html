@@ -1,72 +1,94 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Описание сайта">
-	<meta name="keywords" content="Ключевые слова">
 
-	<link rel="stylesheet" href="main.css">
-	<link rel="shortcut icon" href="favicon.png">
-	<title>CSS Dinner</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Описание сайта">
+  <meta name="keywords" content="Ключевые слова">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="favicon.png">
+  <title>CSS Dinner</title>
 </head>
+
 <body>
 
-	<header> <!--Header-->
-		<p class="title">CSS Dinner Shopping List</p>
-		<p class="sub-title">Let's go to the mail!!!</p>
-	</header><!--End Header-->
+  <header>
+    <!--Header-->
+    <p class="title">CSS Dinner Shopping List</p>
+    <p class="sub-title">Let's go to the mail!!!</p>
+  </header>
+  <!--End Header-->
 
-	<div class="main-content">
-		<div class="container">
-			<label>
-				<input type="checkbox"></input>
-				<i class="box"></i>
-				<span>A lot of pickles <span class="small">(for the next lessons about CSS)</span></span>
-			</label>
-		</div>
-		<div class="container">
-			<label>
-				<input type="checkbox"></input>
-				<i class="box"></i>
-				<span>10 apples <span class="small">(for more CSS manipulation)</span></span>
-			</label>
-		</div>
-		<div class="container">
-			<label>
-				<input type="checkbox"></input>
-				<i class="box"></i>
-				<span>20 oranges<span class="small">(because they are awesome)</span></span>
-			</label>
-		</div>
-		<div class="container">
-			<label>
-				<input type="checkbox"></input>
-				<i class="box"></i>
-				<span>13 plates <span class="small">(hm... they always disappear)</span></span>
-			</label>
-		</div>
-		<div class="container">
-			<label>
-				<input type="checkbox"></input>
-				<i class="box"></i>
-				<span>15 bentons</span>
-			</label>
-		</div>
-		<div class="container">
-			<label>
-				<input type="checkbox"></input>
-				<i class="box"></i>
-				<span>1 bottle of Sake ^_^  <span class="small">(for my friends)</span></span>
-			</label>
-		</div>
-		<button class="button">Bon appetit :)</button>
-	</div>
+  <div class="main-content">
+    <div class="container">
+      <label>
+        <input type="checkbox"></input>
+        <!-- @TODO: вместо i лучше испоьзовать span -->
+        <i class="box"></i>
+        <span>A lot of pickles
+          <span class="small">(for the next lessons about CSS)</span>
+        </span>
+      </label>
+    </div>
+    <div class="container">
+      <label>
+        <input type="checkbox"></input>
+        <i class="box"></i>
+        <span>10 apples
+          <span class="small">(for more CSS manipulation)</span>
+        </span>
+      </label>
+    </div>
+    <div class="container">
+      <label>
+        <input type="checkbox"></input>
+        <i class="box"></i>
+        <span>20 oranges
+          <span class="small">(because they are awesome)</span>
+        </span>
+      </label>
+    </div>
+    <div class="container">
+      <label>
+        <input type="checkbox"></input>
+        <i class="box"></i>
+        <span>13 plates
+          <span class="small">(hm... they always disappear)</span>
+        </span>
+      </label>
+    </div>
+    <div class="container">
+      <label>
+        <input type="checkbox"></input>
+        <i class="box"></i>
+        <span>15 bentons</span>
+      </label>
+    </div>
+    <div class="container">
+      <label>
+        <input type="checkbox"></input>
+        <i class="box"></i>
+        <span>1 bottle of Sake ^_^
+          <span class="small">(for my friends)</span>
+        </span>
+      </label>
+    </div>
+    <button class="button">Bon appetit :)</button>
+  </div>
 
-	<footer> <!--Footer-->
-		
-	</footer><!--End Footer-->
+  <footer>
+    <!--Footer-->
 
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </footer>
+  <!--End Footer-->
+
+  <!-- @TODO: надо удалить перед выгрузкой -->
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+      ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
 </body>
+
 </html>

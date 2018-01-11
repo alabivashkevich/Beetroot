@@ -1,6 +1,10 @@
 .DS_Store
 *.docx
 *.ini
+<<<<<<< HEAD
 *.psd
-gulpfile.js
-package.json
+*.js
+*.json
+=======
+*.psd
+>>>>>>> 594ece270c0c2558334643313330d276e3ca8079

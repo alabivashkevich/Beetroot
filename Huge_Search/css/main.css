@@ -1,77 +1,101 @@
-
 *,
 *:after,
 *:before {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	outline: none;
-	transition: all .2s ease;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  transition: all .2s ease;
 }
+
 body {
-	background-color: #f1f1f1;
-	font-family: Arial, sans-sefif;
+  background-color: #f1f1f1;
+  font-family: Arial, sans-sefif;
 }
-a {text-decoration: none;}
+
+a {
+  text-decoration: none;
+}
+
 .main-content {
-	width: 1024px;
-	margin: 20px auto;
+  // @TODO max-width + padding
+  width: 1024px;
+  margin: 20px auto;
 }
+
 .search {
-	font-size: 0;
+  font-size: 0;
 }
+
 input[type="search"] {
-	border: none;
-	background-color: #f1f1f1;
-	font-size: 90px;
-	font-weight: bold;
-	width: 80%;
-	color: #ccc;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 90px;
+  font-weight: bold;
+  width: 80%;
+  color: #ccc;
 }
-::-webkit-input-placeholder {color: #c2c2c2;}
-::-moz-input-placeholder {color: #c2c2c2;}
-::-ms-input-placeholder {color: #c2c2c2;}
+
+::-webkit-input-placeholder {
+  color: #c2c2c2;
+}
+
+::-moz-input-placeholder {
+  color: #c2c2c2;
+}
+
+::-ms-input-placeholder {
+  color: #c2c2c2;
+}
+
 .btn {
-	width: 20%;
-	height: 70px;
-	background: url(./../favicon.png) no-repeat center;
-	border: 0;
-	cursor: pointer;
-	-webkit-background-size: contain;
-	background-size: contain;
-	opacity: .4;
+  // @TODO: ширину для кнопки задавай боллее явно или давай ей минимальную ширинуу
+  width: 20%;
+  height: 70px;
+  background: url(./../favicon.png) no-repeat center;
+  border: 0;
+  cursor: pointer;
+  -webkit-background-size: contain;
+  background-size: contain;
+  opacity: .4;
 }
+
 .title {
-	text-transform: uppercase;
-	color: #c4c4c4;
-	font-size: 18px;
-	padding: 15px 5px;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  font-size: 18px;
+  padding: 15px 5px;
 }
+
 .item {
-	margin: 25px 15px 0 0;
-	display: inline-block;
-	width: 31%;
+  margin: 25px 15px 0 0;
+  display: inline-block;
+  width: 31%;
 }
 
 .link {
-	background-color: #e4e4e6;
-	padding: 15px;
-	margin: 5px;
-	border-radius: 5px;
-	color: #c4c4c4;
-	text-transform: capitalize;
-	font-size: 16px;
+  background-color: #e4e4e6;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #c4c4c4;
+  text-transform: capitalize;
+  font-size: 16px;
 }
+
 .link:hover {
-	color: #f36b7f;
+  color: #f36b7f;
 }
+
 .foto {
-	border-radius: 50%;
+  border-radius: 50%;
 }
-.name {	
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: -15%;
-	margin-left: 5%;
-	width: 200px;
+
+.name {
+  display: inline-block;
+  vertical-align: middle;
+  // @TODO: что за магческие маржины, еще и отрицательные
+  margin-top: -15%;
+  margin-left: 5%;
+  width: 200px;
 }
