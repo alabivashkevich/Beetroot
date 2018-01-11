@@ -1,0 +1,6 @@
+.DS_Store
+*.docx
+*.ini
+*.psd
+gulpfile.js
+package.json
