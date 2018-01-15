@@ -1,0 +1,12 @@
+@mixin transition($time:.3s)
+  transition: all $time ease-in-out
+
+@mixin button ($color1,$color2)
+  color: $color1
+  background-color: #fff
+  border-color: $color2
+  &:hover
+    color: $color2
+    background-color: $color1
+    border-color: $color1
+    
