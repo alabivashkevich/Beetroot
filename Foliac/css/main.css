@@ -20,8 +20,7 @@ button {
 
 .main-screen {
     background: url("../img/bg-head.png") 0 0 no-repeat;
-    // @TODO: не нужен вебкит для кавер
-    -webkit-background-size: cover;
+    background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     min-height: 650px;
@@ -365,8 +364,19 @@ button {
     resize: none;
 }
 
-// @TODO: префиксы для остальных браузеров
  ::-webkit-input-placeholder {
+    color: #a6a5a5;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+::-moz-input-placeholder {
+    color: #a6a5a5;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+::-o-input-placeholder {
     color: #a6a5a5;
     font-size: 16px;
     font-weight: 700;
@@ -478,7 +488,6 @@ button {
     z-index: -1;
 }
 
-// @TODO: дублирование стилей, надо было вынести в один общий класс шестиугольник, и менять ему только цвет
 .twitter:before {
     transform: translate(9px, -9px) rotate(31deg);
 }
