@@ -1,0 +1,60 @@
+.footer
+  background: url("./../img/bg_footer.png") 0 0 no-repeat
+  background-size: cover
+  height: 650px
+  padding: 0 0 0px 0
+  &__title
+    @include title ($white)
+  &__wrapper
+    max-width: 770px
+    margin: 0 auto
+  &__icons
+    display: flex
+    justify-content: center
+    padding: 0 15px
+    font-size: 24px
+    margin: 0 auto
+    max-width: 370px
+    padding-bottom: 75px
+    i
+      padding: 0 10px
+      color: $white
+      
+.form
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-bottom: 70px
+  &__wrapper
+    display: flex
+    width: 100%
+    justify-content: space-between
+    margin-bottom: 75px
+.input__wrapper
+  width: calc((100% - 60px) / 2)
+  input,
+  textarea
+    width: 100%
+    padding: 5px 10px
+    border: 0
+    background: transparent
+    border-bottom: 2px solid $gray
+    color: $gray
+    height: 35px
+  &--textarea
+    width: 100%
+.footer__btn--wrapper
+  width: 190px
+  height: 60px
+  margin: 0 auto
+.footer__btn
+  font-size: 18px 
+  border: 2px solid $white
+  color: $white
+  text-transform: uppercase
+  background: transparent
+  width: 100%
+  height: 100%
+  @include transition ()
+  @include button ($white, $gray)

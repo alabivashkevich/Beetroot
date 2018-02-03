@@ -1,0 +1,31 @@
+@mixin transition($time:.3s)
+  transition: all $time ease-in-out
+
+@mixin button ($color1,$color2)
+  color: $color1
+  background-color: transparent
+  border-color: $color1
+  &:hover
+    color: $color2
+    background-color: transparent
+    border-color: $color2
+
+@mixin title ($color)
+   text-transform: uppercase
+   font-size: 35px
+   position: relative
+   text-align: center
+   font-weight: 800
+   padding-bottom: 52px
+   color: $color
+   margin: 50px 0
+   &:after 
+     position: absolute
+     content: ""
+     width: 88px
+     height: 2px
+     background-color: $color
+     bottom: 0px
+     left: 50%
+     transform: translateX(-50%)
+    

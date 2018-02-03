@@ -1,0 +1,50 @@
+.header
+  height: 100%
+  background: url("./../img/main_bg.png") 0 0 no-repeat
+  background-size: cover
+.nav
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin: 50px 0 100px 0
+  &__link
+    font-size: 14px
+    margin-right: 52px
+    color: $white
+    &:last-of-type
+      margin-right: 0
+    &:hover
+      color: darken($white, 35%)
+.screen
+  padding: 0 15px
+  margin: 0 auto
+  max-width: 660px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  color: $white
+  &__desc
+    margin-bottom: 160px
+  &__title
+    @include title ($white)
+    font-size: 45px
+
+  &__subtitle
+    text-align: center
+    font-size: 22px
+  &__down
+    height: 100px
+    width: 100px
+    border: 2px solid $gray
+    border-radius: 50%
+    font-size: 65px
+    background-color: transparent
+    margin-bottom: 45px
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    @include transition ()
+    @include button ($gray, $white)
+    

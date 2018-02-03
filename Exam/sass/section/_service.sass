@@ -1,0 +1,51 @@
+.service
+  width: 100%
+  background: #fff
+  &__title
+    @include title ($text)
+
+  &__content
+    margin: 80px 0 120px 0
+    display: flex
+    justify-content: space-between
+  &__block
+    width: calc((100% - 60px) / 3)
+    padding: 0 15px
+    &-img
+      display: flex
+      justify-content: center
+      align-items: center
+      height: 160px
+      margin-bottom: 45px
+      img
+        height: auto
+        max-width: 100%
+        display: block
+      &--check
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 115px
+        height: 115px
+        border-radius: 50%
+        font-size: 45px
+        background: $blue
+        color: $white
+        align-content: center
+.block
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  &__title
+    font-weight: bold
+    font-size: 24px
+    padding-bottom: 40px
+    color: $text
+  &__desc
+    font-size: 16px
+    text-align: center
+    line-height: 2
+    color: $text
+    
+ 
