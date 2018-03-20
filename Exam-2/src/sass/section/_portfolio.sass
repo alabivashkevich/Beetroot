@@ -1,0 +1,63 @@
+.portfolio 
+    width: 100%
+    height: 100%
+    background-color: $white
+    &__title 
+        font-size: 20px
+        font-weight: 300
+        text-transform: uppercase
+        line-height: 1.25
+        text-align: center
+        word-spacing: 3px
+        margin-bottom: 45px
+        padding-top: 90px
+        color: darken($gray, 20%)
+    &__desc
+        font-size: 14px
+        text-align: center
+        line-height: 1.75em
+        color: $gray
+        margin-bottom: 40px
+    &__galerry-wrapper 
+        text-align: center
+        padding-bottom: 110px
+    &__filter-controls 
+        display: flex
+        justify-content: center
+        margin-bottom: 65px
+    &__controls-item 
+        font-size: 16px
+        margin-right: 25px
+        padding-bottom: 5px
+        position: relative
+        color: darken($gray, 20%)
+        cursor: pointer
+        z-index: 10
+        display: block
+        width: 100px
+        transition: all .2s ease
+        &:nth-last-child(1) 
+            margin-right: 0px
+        &:hover 
+            color: $aqua
+        &.active 
+            border-bottom: 2px solid
+            border-color: $aqua
+    &__img-responsive
+        width: 100%
+        height: 100%
+        object-fit: cover
+    &__filtr-item 
+        height: 270px
+        width: 25%
+
+@media (max-width: 900px) 
+    .filtr-item 
+        height: 270px
+        width: 33%
+
+@media (max-width: 600px) 
+    .filtr-item 
+        height: 200px
+        width: 50%
+    

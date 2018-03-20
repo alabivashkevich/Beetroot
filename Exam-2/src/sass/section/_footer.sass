@@ -1,0 +1,54 @@
+.footer
+  background-color: $white
+  text-align: center
+  font-family: 'Open Sans', serif
+  display: flex
+  &__title
+    color: darken($gray, 15%)
+    font-size: 28px
+    font-weight: 900
+    padding-bottom: 15px
+  &__copy
+    color: lighten($gray, 15%)
+    font-size: 16px
+    padding-bottom: 15px
+  &__social
+    display: flex
+    justify-content: center
+    margin-bottom: 30px
+    & a
+      color: $white
+      font-size: 20px
+      display: flex
+      justify-content: center
+      align-items: center
+      margin: 0 10px
+      width: 35px
+      height: 35px
+      border-radius: 50%
+      transition: all .3s ease-in-out
+      &.facebook
+        background-color: $facebook
+        &:hover
+          background-color: $aqua
+          color: $facebook
+          transition: all .3s ease-in-out
+      &.twitter
+        background-color: $twitter
+        &:hover
+          background-color: $aqua
+          color: $facebook
+          transition: all .3s ease-in-out
+      &.instagram
+        background-color: $instagram
+        &:hover
+          background-color: $aqua
+          color: $facebook
+          ransition: all .3s ease-in-out
+      &.vimeo
+        background-color: $vimeo
+        &:hover
+          background-color: $aqua
+          color: $facebook
+          ransition: all .3s ease-in-out
+

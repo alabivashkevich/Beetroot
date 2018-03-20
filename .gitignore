@@ -1,10 +1,6 @@
 .DS_Store
 *.docx
 *.ini
-<<<<<<< HEAD
+node_modules/
 *.psd
-*.js
-*.json
-=======
-*.psd
->>>>>>> 594ece270c0c2558334643313330d276e3ca8079
+*.zip

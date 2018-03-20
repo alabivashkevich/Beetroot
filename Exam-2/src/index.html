@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="./img/g-logo.png" type="img/x-icon">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/ionicons.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Bounce</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="menu">
+                <div class="menu__logo">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu__nav">
+                    <a href="#hello" class="active">Hello</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#team">Team</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="content">
+                <p class="content__title">we are code cafe</p>
+                <p class="content__subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta minus atque voluptatem ea totam, itaque laborum, molestiae sunt harum perspiciatis in illo architecto </p>
+
+            </div>
+            <div class="link-down">
+                <a href="#portfolio">
+                    <i class="fa fa-angle-down"></i>
+                </a>
+            </div>
+        </div>
+        <!--wrapper-->
+    </header>
+    <section id="portfolio">
+        <div class="wrapper">
+            <div class="portfolio__header">
+                <p class="portfolio__title">
+                    THE PORTFOLIO
+                </p>
+                <p class="portfolio__desc">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                </p>
+            </div>
+            <div class="portfolio__galerry-wrapper">
+                <ul class="portfolio__filter-controls custom-simplefilter">
+                    <!-- Simple filter controls: -->
+                    <li class="portfolio__controls-item active" data-filter="all">All Works</li>
+                    <li class="portfolio__controls-item" data-filter="1">Print</li>
+                    <li class="portfolio__controls-item" data-filter="2">Branding</li>
+                    <li class="portfolio__controls-item" data-filter="3">Web</li>
+                    <li class="portfolio__controls-item" data-filter="4">HTML</li>
+                </ul>
+                <div id="filtr-container">
+                    <div class="portfolio__filtr-item filtr-item" data-category="1, 5">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img10.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="2, 5">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img12.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="1, 4">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img9.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="3">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img7.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="3, 4">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img1.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="2, 4">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img5.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="1, 5">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img7.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="2">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img8.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="3">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img9.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="1, 5">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img10.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="2, 4">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img11.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                    <div class="portfolio__filtr-item filtr-item" data-category="3">
+                        <img class="portfolio__img-responsive img-responsive" src="./img/portfilio-img12.png" alt="sample img">
+                        <span class="item-desc"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--wrapper-->
+    </section>
+    <section class="team" id="team">
+        <div class="team__container section__container">
+            <p class="team__title">The team</p>
+            <p class="team__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <div id="team__slider" class="team__slider">
+                <div class="team__slider-item">
+                    <div class="team__item-wrapper">
+                        <div class="team__img-container">
+                            <img class="team__img" src="./img/team_img1.png" alt="#">
+                        </div>
+                        <div class="team__text-container">
+                            <p class="team__item-title">Abdullah Noman</p>
+                            <p class="team__item-subtitle">Creative Director, Code Cafe</p>
+                            <p class="team__item-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos
+                                ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus o odio dignissimos ducimus qui blanditiis
+                                praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto
+                                odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimosqui blanditiis praesentium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__slider-item">
+                    <div class="team__item-wrapper">
+                        <div class="team__img-container">
+                            <img class="team__img" src="./img/team_img3.png" alt="#">
+                        </div>
+                        <div class="team__text-container">
+                            <p class="team__item-title">Ashley Winth</p>
+                            <p class="team__item-subtitle">Frontend Developer, Code Cafe</p>
+                            <p class="team__item-description">Morgan Saylor was born in Chicago and raised in Atlanta, Georgia. The love of acting and storytelling were apparent at an early age. In her early teens, she began performing in local and regional stage productions. In 2009,
+                                Morgan was cast as Dana Brody, on Showtime's "Homeland" when she was fifteen years old. The acclaimed television show was t iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio
+                                dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__slider-item">
+                    <div class="team__item-wrapper">
+                        <div class="team__img-container">
+                            <img class="team__img" src="./img/team_img3.png" alt="#">
+                        </div>
+                        <div class="team__text-container">
+                            <p class="team__item-title">Nina Dobrev</p>
+                            <p class="team__item-subtitle">HR Department, Code Cafe</p>
+                            <p class="team__item-description">Nikolina "Nina" Constantinova Dobreva was born in Sofia, Bulgaria. She moved to Canada at the age of two and has lived in Toronto, Ontario ever since. From a very young age, she showed great enthusiasm and talent for the arts:
+                                Dance, Gymnastics, Theatre, Music, Visual arts, and Acting! Modeling jobs led to commercials, which then turned into film At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos
+                                et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus
+                                qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__slider-item">
+                    <div class="team__item-wrapper">
+                        <div class="team__img-container">
+                            <img class="team__img" src="./img/team_img3.png" alt="#">
+                        </div>
+                        <div class="team__text-container">
+                            <p class="team__item-title">Nina Dobrev</p>
+                            <p class="team__item-subtitle">HR Department, Code Cafe</p>
+                            <p class="team__item-description">Nikolina "Nina" Constantinova Dobreva was born in Sofia, Bulgaria. She moved to Canada at the age of two and has lived in Toronto, Ontario ever since. From a very young age, she showed great enthusiasm and talent for the arts:
+                                Dance, Gymnastics, Theatre, Music, Visual arts, and Acting! Modeling jobs led to commercials, which then turned into film At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos
+                                et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus
+                                qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__slider-item">
+                    <div class="team__item-wrapper">
+                        <div class="team__img-container">
+                            <img class="team__img" src="./img/team_img1.png" alt="#">
+                        </div>
+                        <div class="team__text-container">
+                            <p class="team__item-title">Roman Nikiforoff</p>
+                            <p class="team__item-subtitle">HR Department, Code Cafe</p>
+                            <p class="team__item-description">Nikolina "Nina" Constantinova Dobreva was born in Sofia, Bulgaria. She moved to Canada at the age of two and has lived in Toronto, Ontario ever since. From a very young age, she showed great enthusiasm and talent for the arts:
+                                Dance, Gymnastics, Theatre, Music, Visual arts, and Acting! Modeling jobs led to commercials, which then turned into film At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos
+                                et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus
+                                qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Team-->
+    <section class="contact-us">
+        <p class="contact-us__text">Already Loved Us? Let’s talk!</p>
+        <button class="contact-us__btn section-about__btn--show-modal">Contact Us</button>
+    </section>
+    <!--contact-us-->
+    <section class="testimonials">
+        <div class="testimonials__container section__container">
+            <p class="testimonials__title">Testimonials</p>
+            <p class="testimonials__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <div id="testimonials__slider" class="team__slider">
+                <div class="testimonials__slider-item">
+                    <div class="testimonials__item-wrapper">
+                        <div class="testimonials__image-container">
+                            <img class="testimonials__image" src="./img/testemonials-img1.png" alt="#">
+                        </div>
+                        <div class="testimonials__text-container">
+                            <p class="testimonials__item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, obcaecati odio omnis quod reiciendis consequuntur. Modi provident fugit magnam delectus, obcaecati adipisci at tenetur reiciendis commodi ullam exercitationem
+                            </p>
+                            <p class="testimonials__item-title">Partho</p>
+                            <p class="testimonials__item-subtitle">Founder, artways bd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__slider-item">
+                    <div class="testimonials__item-wrapper">
+                        <div class="testimonials__image-container">
+                            <img class="testimonials__image" src="./img/testemonials-img2.png" alt="#">
+                        </div>
+                        <div class="testimonials__text-container">
+                            <p class="testimonials__item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis asperiores omnis ut nihil laudantium vitae. Mollitia pariatur culpa provident, eligendi sequi aspernatur? Iusto cumque exercitationem, recusandae, illo earum
+                                aspernatur similique est ut fuga at obcaecati!.</p>
+                            <p class="testimonials__item-title">Partho</p>
+                            <p class="testimonials__item-subtitle">Founder, artways bd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__slider-item">
+                    <div class="testimonials__item-wrapper">
+                        <div class="testimonials__image-container">
+                            <img class="testimonials__image" src="./img/testemonials-img3.png" alt="#">
+                        </div>
+                        <div class="testimonials__text-container">
+                            <p class="testimonials__item-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
+                                qui officia deserunt mollitia.</p>
+                            <p class="testimonials__item-title">Partho</p>
+                            <p class="testimonials__item-subtitle">Founder, artways bd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonials-->
+
+    <section class="contact" id="contact">
+        <div class="contact__container section__container">
+            <p class="contact__title">Contact Us</p>
+            <p class="contact__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+        </div>
+        <div id="map"></div>
+    </section>
+    <!--Contact-->
+    <footer class="footer">
+        <div class="wrapper">
+            <p class="footer__title">BOUNCY</p>
+            <p class="footer__copy">Copyright 2018. All rights Reserved</p>
+            <div class="footer__social">
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="vimeo"><i class="fa fa-vimeo"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--*****************
+    неведимки
+    *****************
+-->
+    <!-- Якорь вверх-->
+    <button href="header" class="up-uncor animated bounceInRight" id="top">
+<i class="fa fa-angle-up" aria-hidden="true"></i>
+    </button>
+
+    <!--Modal-->
+    <div id="modal" class="modal">
+        <div class="modal__container">
+            <div class="modal__wrapper">
+                <div class="modal__header">
+                    <p class="modal__title">Title modal</p>
+                    <button class="modal__btn--close">&times</button>
+                </div>
+                <div class="modal__body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias magnam mollitia excepturi doloribus a debitis nulla in distinctio expedita laborum fuga sint quasi, eius optio voluptatum consectetur deleniti! Fugiat debitis sint rem,
+                        tempore fuga, voluptatum laboriosam aliquid blanditiis perferendis commodi recusandae architecto praesentium, eum alias rerum necessitatibus magnam ea quas hic quae veniam ab. Accusamus quisquam eaque ea animi earum quidem quas
+                    </p>
+                </div>
+                <div class="modal__footer">
+                    <button class="modal__btn--cancel">Cancel</button>
+                    <button class="modal__btn--submit">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function initMap() {
+            const coordinates = {
+                lat: 47.829971,
+                lng: 35.1668073
+
+            };
+            const map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: coordinates,
+                zoomControl: true,
+                mapTypeControl: false,
+                scaleControl: false,
+                streetViewControl: false,
+                rotateControl: false,
+                fullscreenControl: false,
+            });
+            const mapMarker = './img/marker.png';
+            const marker = new google.maps.Marker({
+                position: coordinates,
+                map,
+                icon: mapMarker,
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcfbAzTLe_5-kdjpTHbMFd_ptltiGodKg&callback=initMap" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="./filter/jquery.filterizr.js"></script>
+    <script src="./js/jquery.slimscroll.js"></script>
+    <script src="./js/controls.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
