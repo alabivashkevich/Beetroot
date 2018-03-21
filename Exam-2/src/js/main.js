@@ -12,10 +12,8 @@ $(document).ready(function() {
         adaptiveHeight: true,
         prevArrow: '<button type="button" class="team__slider-btn team__slider-btn--prev"><span class="ion-chevron-left"></span></button>',
         nextArrow: '<button type="button" class="team__slider-btn team__slider-btn--next"><span class="ion-chevron-right"></span></button>',
-        autoplay: false,
-        // arrows: false,
-        autoplaySpeed: 4000,
-        fade: true,
+        autoplay: true,
+        autoplaySpeed: 3000
     });
 
     $('#testimonials__slider').slick({
@@ -26,10 +24,9 @@ $(document).ready(function() {
         adaptiveHeight: true,
         prevArrow: '<button type="button" class="testimonials__slider-btn testimonials__slider-btn--prev"><span class="ion-chevron-left"></span></button>',
         nextArrow: '<button type="button" class="testimonials__slider-btn testimonials__slider-btn--next"><span class="ion-chevron-right"></span></button>',
-        autoplay: false,
-        // arrows: false,
-        autoplaySpeed: 4000,
-        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+
     });
 
     $(function() {
