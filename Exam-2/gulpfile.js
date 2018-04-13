@@ -7,9 +7,6 @@ var gulp = require('gulp'),
 const browserSync = require("browser-sync");
 const reload = browserSync.reload;
 
-
-
-
 // sass
 gulp.task('sass', function() {
     return gulp.src(['./src/sass/main.sass'])

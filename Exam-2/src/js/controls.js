@@ -4,5 +4,5 @@ $(function() {
         $('.custom-simplefilter li').removeClass('active');
         $(this).addClass('active');
     });
-    
+
 });
